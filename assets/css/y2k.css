@@ -1,14 +1,14 @@
 /* Allgemeines */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../images/longhorn-default-bg.jpg');
+    background-image: url('../images/y2k-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    cursor: url('../cursors/LinkSelect.cur'), auto;
+    cursor: url('../cursors/y2k_select.cur'), auto;
 }
 
 header {
@@ -54,7 +54,7 @@ header {
 }
 
 * {
-    cursor: url('../cursors/LinkSelect.cur'), auto !important;
+    cursor: url('../cursors/y2k_select.cur'), auto !important;
 }
 
 .welcmsg {
@@ -142,7 +142,7 @@ header {
 }
 
 .dropdown button:hover {
-    color: rgb(255, 255, 255);
+    color: yellow;
 }
 
 .theme-webaero .welcmsg {
@@ -207,19 +207,6 @@ header {
     width: 500px;
 }
 
-/* introductions */
-.introduction {
-    display: block;
-    margin-left: 300px; 
-    margin-top: -400px; /* Text neben Bild */
-    color: white;
-    font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    width: 500px;
-}
-
 /* Contact Us Text */
 .contactusone {
     display: block;
@@ -267,8 +254,8 @@ header {
 /* Button oben rechts */
 #themeButton {
   position: fixed;
-  right: 32px;
-  top: 215px;
+  right: 20px;
+  top: 20px;
   cursor: pointer;
   z-index: 1100;
 }
@@ -308,5 +295,5 @@ header {
 }
 
 #themeSidecar li:hover {
-  color: rgb(255, 255, 255);
+  color: yellow;
 }
